@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+body {
+    margin: 0;
+
+}
+
+/*Header*/
+
+.header {
+    left: 0px;
+    top: 0px;
+
+    height: 90px;
+    width: auto;
+    border-radius: 0px;
+    border: 1px solid #e0dbdbdc;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*Container_net*/
+
+.container {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+
+    width: 100%;
+    max-width: 85%;
+    height: 90px;
+}
+
+/*header__inner_content*/
+
+.header__inner {
+    display: inline-flex;
+}
+
+/*nav_container*/
+
+.nav {
+    display: inline-flex;
+    margin-left: auto; 
+    
+    
+    right: 0px;
+    z-index: 1000;
+}
+
+/*nav a content*/
+
+.nav a {
+    display: inline-flex;
+    margin-left: 1000px;
+    vertical-align: top;
+    margin: 0 39.61px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+
+} 
+/* container with part of landing*/
+.container_big_block {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    height: 472.5px;
+    width: 83%;
+    left: 8.33%;
+    right: 8.33%;
+
+    grid-template-columns:1fr 1fr ;
+    column-gap: 50px;
+
+
+}
+/* big image from container*/
+.box_image1 {
+    height: 474px;
+
+    background-color: black;
+}
+
+.box_image1 img {
+    width: 100%;
+    height: 474px;
+}
+/*container with all text from landing*/
+.box_with_text {
+    display: grid;
+    row-gap: 15px;
+
+
+}
+/*headline*/
+.huge_t1 { 
+    height: 230px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 8px;
+    text-transform: uppercase;
+  
+}
+/*subheading*/
+.small_t1 {
+    width: 419px;
+    height: 97px;
+
+    font-weight: 400;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+
+
+}
+/*name of athor*/
+.tiny_t1 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ /* big container of popular posts*/
+.popular_posts {
+    display: grid;
+
+    width: 83%;
+    height: 963px;
+
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2,auto) ;
+    justify-content:space-between;
+
+
+
+
+}
+/*contant of post*/
+
+.block_with_one_post {
+    display: grid;
+    height: 407px;
+    width: 387px;
+
+    
+
+}
+/* position of text */
+.text {
+    display: grid;
+    row-gap: 10px;
+}
+
+
+/*small font for headlines in popular posts*/
+.small_t {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+/*tiny font for name of athors*/
+.tiny_t {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+
+    }
+
+/*container_big_block and popular posts*/
+.all {
+    display: grid;
+    row-gap: 100px;
+}
+/*hr*/
+.delimiter {
+    display: grid;
+    margin: 0 auto;
+    background-color: #E6E6E6;
+    width: 84%;
+    height: 1px;
+
+}
+/*big container of latest posts*/
+.latest_post {
+    display: grid;
+
+    width: 83%;
+    height: 927px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr) ;
+    
+
+}
+/*one post in big container of latest posts*/
+.second_block_with_one_post {
+    display: grid;
+    height: 389px;
+    width: 305px;
+
+}
+/*more smaller font for headlines in latest post */
+.small_2t {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.button {
+    margin: 0 auto;
+    width: 205px;
+    height: 54px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+.big_container_of_featured_posts{
+    display: grid;
+    width: 78%;
+    height: 1126.38px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: repeat(2,auto) ;
+
+    justify-content: space-evenly;
+
+
+}
+
+.third__block_with_one_post {
+    display: grid;
+    height: 530px;
+    width: 610px;
+}
+
+.block_footer {
+    display: grid;
+    width: 100%;
+    height: 617px;
+    background-color:  #120900;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.block_for_content {
+    display: grid;
+    width: 1200px;
+    height: 437px;
+    background-color: rgb(122, 6, 6);
+    
+
+}
+
+
+.called {
+    display: grid;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+
+
+}
+
+.categories {
+    width: 900px;
+    height: 110px;
+}
+
+.groups_of_categories {
+    display: grid;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    height: 78px;
+    width: 900px;
+
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr) ;
+
+
+
+}
+
+
+.group  p {
+    height: 24px;
+    width: 129px;
+}
+
+
+.follow_us {
+    height: 129px;
+    width: 225px;
+}
+.groups_of_follow_us {
+    display: grid;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    height: 129px;
+    width: 225px;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+.categories_and_follow_us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
