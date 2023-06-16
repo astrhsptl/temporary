@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Get all</h2>
+    <button onclick="get_all()">Получить список магазинов</button>
+
+    <h2>Get by id</h2>
+    <input type="text" id="id" />
+    <button onclick="get_by_id()">Получить магазин</button>
+    
+    <h2>Create shop</h2>
+    <input type="text" id="createShopName" />
+    <input type="text" id="createShopAddress" />
+    <button onclick="create_shop(event)">Создать магазин</button>
+
+    <h2>Update shop info</h2>
+    <input type="text" id="updateID" />
+    <input type="text" id="updateShopName" />
+    <input type="text" id="updateShopAddress" />
+    <button onclick="update_shop(event)">Обновить магазин</button>
+
+
+    <h2>Delete shop</h2>
+    <input type="text" id="shopID" />
+    <button onclick="delete_shop(event)">Удалить магазин</button>
+    
+
+    <script src="js/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
+
+<!-- 
+    get - для получения чего-либо
+    post - для отправки чего-либо
+    put/patch - для внесения изменений во что-либо
+    delete - для удаления чего-либо
+ -->
